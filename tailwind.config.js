@@ -2,7 +2,18 @@
 module.exports = {
   content: ["./public/index.html"],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        "bookmark-purple": "#7e22ce",
+        "bookmark-red": "#b91c1c",
+        "bookmark-blue": "#1d4ed8",
+        "bookmark-gray": "#374151",
+        "bookmark-white": "#f8fafc",
+      },
+    },
+    fontFamily: {
+      poppins: ["poppins, sans-serif"],
+    },
     container:{
       center: true,
       padding: "1rem",
